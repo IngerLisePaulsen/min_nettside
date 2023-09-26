@@ -8,7 +8,8 @@ import Link from "next/link";
 export function Header() {
   return (
     <header className="bg-white/50 flex justify-between px-8 sm:px-16 py-5 flex-row gap-5">
-      <HeaderLink href="/">karinordmann.no</HeaderLink>
+      <HeaderLink href="/">ingerlisepau@hotmail</HeaderLink>
+      <HeaderLink href="/">Fritid</HeaderLink>
       <div className="flex gap-5">
         <HeaderLink href="/cv">CV</HeaderLink>
       </div>

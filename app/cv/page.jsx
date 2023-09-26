@@ -12,10 +12,10 @@ const sections = [
     title: "Erfaring",
     items: [
       {
-        sectionTitle: "Arbeidssted | Rolle",
-        period: "Måned YYYY - Måned YYYY",
+        sectionTitle: "Omega 365 Solutions  | Sommerstudent",
+        period: "Omega 365 Solutions  | Sommerstudent | Juni 2023 - Juli 2023",
         description:
-          "En rask beskrivelse av hva arbeidsoppgavene var i erfaringen. Hva tar du med deg fra stedet. Jobbet du med noen andre? Hva var ansvarsområder? Beskriv kort.",
+          "Under min periode hos Omega 365 fikk jeg og en annen student mulighet til å lage vår helt egen app. Vi fikk fritt velge hvilken app vi skulle lage også hvile teknologier vi ville benytte oss av",
       },
     ],
   },
@@ -23,27 +23,29 @@ const sections = [
     title: "Utdanning",
     items: [
       {
-        sectionTitle: "Utdanningssted | Studieretning",
-        period: "Måned YYYY - Måned YYYY",
+        sectionTitle: "Høgskulen på Vestlandet | Lærerutdanning med master",
+        period: "Høgskulen på Vestlandet | Lærerutdanning med master | August 2016 - Juli 2022",
         description:
-          "En rask beskrivelse av hva du skulle lære og lærte på studiet. Er det noe spesielt du tar med deg videre? Hva var det du fordypte deg i? Beskriv kort.",
+          "Jeg gikk 4 årig utdanning for å få bacheloren min. Deretter tok jeg 2 år til med master. Jeg har følgende fag: Naturfag, Norsk og kroppsøving.",
       },
       {
-        sectionTitle: "Utdanningssted | Studieretning",
-        period: "Måned YYYY - Måned YYYY",
+        sectionTitle: "Høgskulen på Vestlandet | Informasjonsteknologi",
+        period: "Høgskulen på Vestlandet | Informasjonsteknologi | August 2022 - Juli 2025",
         description:
-          "En rask beskrivelse av hva du skulle lære og lærte på studiet. Er det noe spesielt du tar med deg videre? Hva var det du fordypte deg i? Beskriv kort.",
+          "Jeg gikk 4 årig utdanning for å få bacheloren min. Deretter tok jeg 2 år til med master. Jeg har følgende fag: Naturfag, Norsk og kroppsøving.",
       },
+      
     ],
   },
 ];
 
 export default function CV() {
   return (
-    <div className="container mx-auto mt-32 px-8 gap-16 flex flex-col">
+    <div className="font-bold container mx-auto mt-32 px-2 gap-16 flex flex-col">
       {sections.map((section) => {
         return <CVSection {...section} key={section.title} />;
       })}
     </div>
   );
 }
+
